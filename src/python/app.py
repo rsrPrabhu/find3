@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv('countries.csv')
+df = pd.read_csv('../../datasets/countries.csv')
 
 # Initialize Flask app
 app = Flask(__name__)
